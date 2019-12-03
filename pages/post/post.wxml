@@ -1,0 +1,74 @@
+<view>
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}"
+    bindchange="bindchange">
+        <swiper-item>
+            <image class="swiper" src="/images/post/post-1@text.jpg" />
+        </swiper-item>
+        <swiper-item>
+            <image class="swiper" src="/images/post/post-2@text.jpg" />
+        </swiper-item>
+        <swiper-item>
+            <image class="swiper" src="/images/post/post-3@text.jpg" />
+        </swiper-item>
+        <!-- <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image class="swiper-image" src="{{item}}" />
+            </swiper-item>
+        </block> -->
+    </swiper>
+</view>
+<view class="post-container" >
+    <view class="post-author-date">
+        <image src="/images/avatar/avatar-5.png" />
+        <text >12.03.2019</text>
+    </view>
+    <text class="post-title">小时候的记忆</text>
+    <image class="post-image" src="/images/post/post-4.jpg" mode="aspectFill"/>
+    <text class="post-content">你有这样的回忆吗？</text>
+
+    <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text >108</text>
+        <image src="/images/icon/wx_app_view.png" />
+        <text >92</text>
+        <image src="/images/icon/wx_app_message.png" />
+        <text >7</text>
+    </view>
+</view>
+
+<view class="post-container" >
+    <view class="post-author-date">
+        <image src="/images/avatar/avatar-5.png" />
+        <text >12.03.2019</text>
+    </view>
+    <text class="post-title">小时候的记忆</text>
+    <image class="post-image" src="/images/post/post-5.jpg" mode="aspectFill"/>
+    <text class="post-content">你有这样的回忆吗？</text>
+
+    <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text >108</text>
+        <image src="/images/icon/wx_app_view.png" />
+        <text >92</text>
+        <image src="/images/icon/wx_app_message.png" />
+        <text >7</text>
+    </view>
+</view>
+<view class="post-container" >
+    <view class="post-author-date">
+        <image src="/images/avatar/avatar-5.png" />
+        <text >12.03.2019</text>
+    </view>
+    <text class="post-title">小时候的记忆</text>
+    <image class="post-image" src="/images/post/post-1.jpg" mode="aspectFill"/>
+    <text class="post-content">你有这样的回忆吗？</text>
+
+    <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text >108</text>
+        <image src="/images/icon/wx_app_view.png" />
+        <text >92</text>
+        <image src="/images/icon/wx_app_message.png" />
+        <text >7</text>
+    </view>
+</view>

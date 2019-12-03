@@ -1,0 +1,10 @@
+Page({
+    imgUrls:[
+        "/images/post/post-1@text.jpg",
+        "/images/post/post-2@text.jpg",
+        "/images/post/post-3@text.jpg",
+    ],
+    bindchange(e){
+        console.log(e)
+    }
+})

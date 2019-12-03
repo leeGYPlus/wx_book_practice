@@ -11,3 +11,9 @@
 page{
   background-color: rgb(247, 240, 212);
 }
+
+text{
+  font-size: 24rpx;
+  font-family: 'Courier New', Courier, monospace;
+  color: #666;
+}

@@ -2,8 +2,6 @@
   "pages": [
     "pages/welcom/welcom",
     "pages/post/post"
-
-
   ],
   "window": {
     "backgroundTextStyle": "light",

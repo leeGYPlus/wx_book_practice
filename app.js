@@ -1,6 +1,21 @@
+var dataObj = require('pages/data/data.js')
 //app.js
 App({
   onLaunch: function () {
+    // 使用 wx.setStorage 将初始数据存入小程序缓存中
+    wx.setStorage({
+      key: 'postList',
+      data: dataObj.postList,
+      success: function () {
+
+      },
+      fail: function () {
+
+      },
+      complete: function () {
+
+      }
+    });
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
